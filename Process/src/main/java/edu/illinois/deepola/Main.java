@@ -10,7 +10,7 @@ public class Main {
         try (Connection connection = DriverManager.getConnection("jdbc:avatica:remote:url=http://localhost:9000")) {
             try (Statement statement = connection.createStatement()) {
 
-                 statement.execute("PREPARE TABLE test");
+                statement.execute("PREPARE TABLE test");
 
                 try (ResultSet result = statement.executeQuery("SELECT PROGRESSIVE AVG(a), b, PROGRESSIVE_PROGRESS() from test GROUP BY b")) {
                     while (result.next()) {
