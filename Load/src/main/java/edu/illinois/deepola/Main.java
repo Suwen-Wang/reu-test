@@ -15,18 +15,7 @@ public class Main {
                 statement.execute("INSERT INTO test VALUES (2, 'a')");
                 statement.execute("INSERT INTO test VALUES (3, 'b')");
                 statement.execute("INSERT INTO test VALUES (4, 'b')");
-                statement.execute("INSERT INTO test VALUES (5, 'a')");
-                statement.execute("INSERT INTO test VALUES (6, 'a')");
-                statement.execute("INSERT INTO test VALUES (7, 'b')");
-                statement.execute("INSERT INTO test VALUES (8, 'b')");
-                statement.execute("INSERT INTO test VALUES (9, 'a')");
-                statement.execute("INSERT INTO test VALUES (10, 'a')");
-                statement.execute("INSERT INTO test VALUES (11, 'b')");
-                statement.execute("INSERT INTO test VALUES (12, 'b')");
-                statement.execute("INSERT INTO test VALUES (13, 'a')");
-                statement.execute("INSERT INTO test VALUES (14, 'a')");
-                statement.execute("INSERT INTO test VALUES (15, 'b')");
-                statement.execute("INSERT INTO test VALUES (16, 'b')");
+
             }
         }
 
